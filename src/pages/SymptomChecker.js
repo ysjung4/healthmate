@@ -36,7 +36,7 @@ function SymptomChecker() {
     setResult(null);
 
     try {
-      let input = symptom.toLowerCase().trim().replace(/[\s\/]+/g, '-');
+      let input = symptom.toLowerCase().trim().replace(/[\s/]+/g, '-');
       let slug = synonymMap[input] || input;
 
       const response = await fetch(`https://int.api.service.nhs.uk/nhs-website-content/conditions/${slug}`, {
