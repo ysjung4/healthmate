@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../App.css';
-import hospitalImage from '../assets/hospital-illustration.png';
 import greenMarker from '../assets/green-marker.png';
 
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
