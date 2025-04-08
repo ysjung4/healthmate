@@ -6,10 +6,12 @@ import SymptomChecker from './pages/SymptomChecker';
 import FindHospital from './pages/FindHospital';
 import MedicineFinder from './pages/MedicineFinder';
 import Footer from './components/Footer';
-import './App.css'; // ✅ 스타일 적용
+import './App.css';
 import LiveWellTips from './pages/LiveWellTips';
+import CheckSWStatus from './pages/CheckSWStatus'; 
 
 function App() {
+ 
   return (
     <Router>
       <div className="app-container">
@@ -23,6 +25,7 @@ function App() {
             <Route path="/livewell" element={<LiveWellTips />} />
           </Routes>
         </main>
+        <CheckSWStatus /> {/* 컴포넌트 삽입 */}
         <Footer/>
       </div>
     </Router>
