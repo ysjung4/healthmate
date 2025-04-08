@@ -8,7 +8,6 @@ import MedicineFinder from './pages/MedicineFinder';
 import Footer from './components/Footer';
 import './App.css';
 import LiveWellTips from './pages/LiveWellTips';
-import CheckSWStatus from './pages/CheckSWStatus'; 
 
 function App() {
  
@@ -25,7 +24,6 @@ function App() {
             <Route path="/livewell" element={<LiveWellTips />} />
           </Routes>
         </main>
-        <CheckSWStatus /> {/* 컴포넌트 삽입 */}
         <Footer/>
       </div>
     </Router>

@@ -13,9 +13,11 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            NHS Website Content API
-          </a>.
+            NHS Website Content API.
+          </a>
+          
         </p>
+        <p>App logo generated with ChatGPT and adapted by YeonSeo Jung.</p> 
       </div>
     </footer>
   );

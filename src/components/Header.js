@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import InstallPromptButton from './InstallPromptButton';
 
 function Header() {
   return (
@@ -13,6 +14,7 @@ function Header() {
             <li><NavLink to="/find-hospital">Find Hospital</NavLink></li>
             <li><NavLink to="/medicine">MedicineFinder</NavLink></li>
             <li><NavLink to="/livewell">LiveWellTips</NavLink></li>
+            <InstallPromptButton /> 
           </ul>
         </nav>
       </div>
